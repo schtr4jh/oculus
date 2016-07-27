@@ -10,6 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="81dp"
@@ -30,7 +38,7 @@
             android:id="@+id/orientationText"
             android:layout_gravity="left|bottom"
             android:text="Orientation" />
-    </FrameLayout>
+    </LinearLayout>
 
     <ImageButton
         android:layout_width="wrap_content"
