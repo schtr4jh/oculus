@@ -1,0 +1,43 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:id="@+id/locationText"
+            android:layout_gravity="left|center_vertical"
+            android:text="Location"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:id="@+id/gravityText"
+            android:layout_gravity="left|top"
+            android:text="Gravity" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:id="@+id/orientationText"
+            android:layout_gravity="left|bottom"
+            android:text="Orientation" />
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgClose"
+        android:layout_gravity="right|top"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="20dp"/>
+
+</FrameLayout>
